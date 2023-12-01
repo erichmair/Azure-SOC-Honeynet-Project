@@ -121,7 +121,7 @@ The following table shows the 24-hour metrics generated after hardening the envi
 
 #### MS SQL Server Authentication Failures
 
-![Attack Map - MSSQL (After)](https://erichmair.io/assets/map_mssqp-after.png "Attack Map - MSSQL (After)") 
+![Attack Map - MSSQL (After)](https://erichmair.io/assets/map_mssql-after.png "Attack Map - MSSQL (After)") 
 
 <br />
 
