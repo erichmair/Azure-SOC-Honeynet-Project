@@ -1,6 +1,6 @@
 # Azure Honeynet + SOC (w/ Real-World Cyber Attacks)
 
-![Azure Honeynet + SOC](https://github.com/erichmair/erichmair.github.io/tree/main/assets/AzureSOCHoneynet.png "Azure Honeynet + SOC") 
+![Azure Honeynet + SOC](https://erichmair.io/assets/AzureSOCHoneynet.png "Azure Honeynet + SOC") 
 
 ## Introduction and Purpose
 
@@ -37,7 +37,7 @@ After the implementation of security controls, another 24-hour metric measuremen
 
 ## Architecture ‘Before’ Hardening the Environment
 
-![Before Hardening Architecture](https://github.com/erichmair/erichmair.github.io/tree/main/assets/AzureSOCHoneynet-Before.png "Before Hardening Architecture") 
+![Before Hardening Architecture](https://erichmair.io/assets/AzureSOCHoneynet-Before.png "Before Hardening Architecture") 
 
 To gather metrics for the insecure environment, all resources were initially deployed with their endpoints exposed to the public internet to encourage malicious traffic. Additionally, I disabled the built-in VM firewalls, and configured the VMs’ Network Security Groups (NSGs) as open, allowing unrestricted traffic. Following the configuration of log collection and the establishment of security metrics, I conducted a 24-hour observation of the ‘Before’ environment.
 
@@ -58,19 +58,19 @@ The following table shows the 24-hour metrics generated before hardening the env
 
 #### NSG Allowed Malicious Inbound Flows
 
-![Attack Map - NSG (Before)](https://github.com/erichmair/erichmair.github.io/tree/main/assets/map_nsg-before.png "Attack Map - NSG (Before)") 
+![Attack Map - NSG (Before)](https://erichmair.io/assets/map_nsg-before.png "Attack Map - NSG (Before)") 
 
 #### Linux SSH Authentication Failures
 
-![Attack Map - Linux (Before)](https://github.com/erichmair/erichmair.github.io/tree/main/assets/map_linux-before.png "Attack Map - Linux (Before)") 
+![Attack Map - Linux (Before)](https://erichmair.io/assets/map_linux-before.png "Attack Map - Linux (Before)") 
 
 #### Windows RDP/SMB Authentication Failures
 
-![Attack Map - RDP (Before)](https://github.com/erichmair/erichmair.github.io/tree/main/assets/map_rdp-before.png "Attack Map - RDP (Before)") 
+![Attack Map - RDP (Before)](https://erichmair.io/assets/map_rdp-before.png "Attack Map - RDP (Before)") 
 
 #### MS SQL Server Authentication Failures
 
-![Attack Map - MSSQL (Before)](https://github.com/erichmair/erichmair.github.io/tree/main/assets/map_mssql-before.png "Attack Map - MSSQL (Before)") 
+![Attack Map - MSSQL (Before)](https://erichmair.io/assets/map_mssql-before.png "Attack Map - MSSQL (Before)") 
 
 <br />
 
@@ -88,7 +88,7 @@ Following these measures, I proceeded to conduct another 24-hour observation for
 
 ## Architecture ‘After’ Hardening the Environment
 
-![After Hardening Architecture](https://github.com/erichmair/erichmair.github.io/tree/main/assets/AzureSOCHoneynet-After.png "After Hardening Architecture") 
+![After Hardening Architecture](https://erichmair.io/assets/AzureSOCHoneynet-After.png "After Hardening Architecture") 
 
 ### Metrics ‘After’ Hardening
 
@@ -109,19 +109,19 @@ The following table shows the 24-hour metrics generated after hardening the envi
 
 #### NSG Allowed Malicious Inbound Flows
 
-![Attack Map - NSG (After)](https://github.com/erichmair/erichmair.github.io/tree/main/assets/map_nsg-after.png "Attack Map - NSG (After)") 
+![Attack Map - NSG (After)](https://erichmair.io/assets/map_nsg-after.png "Attack Map - NSG (After)") 
 
 #### Linux SSH Authentication Failures
 
-![Attack Map - Linux (After)](https://github.com/erichmair/erichmair.github.io/tree/main/assets/map_linux-after.png "Attack Map - Linux (After)") 
+![Attack Map - Linux (After)](https://erichmair.io/assets/map_linux-after.png "Attack Map - Linux (After)") 
 
 #### Windows RDP/SMB Authentication Failures
 
-![Attack Map - RDP (After)](https://github.com/erichmair/erichmair.github.io/tree/main/assets/map_rdp-after.png "Attack Map - RDP (After)") 
+![Attack Map - RDP (After)](https://erichmair.io/assets/map_rdp-after.png "Attack Map - RDP (After)") 
 
 #### MS SQL Server Authentication Failures
 
-![Attack Map - MSSQL (After)](https://github.com/erichmair/erichmair.github.io/tree/main/assets/map_mssqp-after.png "Attack Map - MSSQL (After)") 
+![Attack Map - MSSQL (After)](https://erichmair.io/assets/map_mssqp-after.png "Attack Map - MSSQL (After)") 
 
 <br />
 
